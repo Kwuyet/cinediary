@@ -1,0 +1,20 @@
+# Local credentials (copy config/config.local.example.php)
+config/config.local.php
+
+# User uploads (keep folders and demo posters only)
+public/uploads/avatars/*
+!public/uploads/avatars/.gitkeep
+public/uploads/reviews/*
+!public/uploads/reviews/.gitkeep
+uploads/reviews/*
+!uploads/reviews/.gitkeep
+
+# Local debug helpers
+debug.php
+ping.html
+tools/
+
+.DS_Store
+Thumbs.db
+/vendor/
+/node_modules/
